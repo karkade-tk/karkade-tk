@@ -7,7 +7,7 @@ layout: default
 {% for post in site.posts limit:15 %}
    <div class="post-preview">
    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-   <span>📆 </span><span class="post-date">{{ post.date | date: "%m %d, %Y" }}</span>
+   <span>📆 </span><span class="post-date">{{ post.date | date: "%d.%m.%Y" }}</span>
    {{ post.content | split:'<!--break-->' | first }}
    {% if post.content contains '<!--break-->' %}
       <a href="{{ post.url }}">Читать далее >>></a>
