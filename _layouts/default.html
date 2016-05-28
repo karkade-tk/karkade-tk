@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
-
     {% include meta.html %}
     
     {% seo %}
@@ -21,9 +19,7 @@
     if ((host == window.location.host) && (window.location.protocol != "https:"))
         window.location.protocol = "https";
     </script>
-
     <!--{% include icon.html %}-->
-    
     <meta name='wmail-verification' content='ac759c996f3f4e52dc3077af9b06ce9b' />
   </head>
 
