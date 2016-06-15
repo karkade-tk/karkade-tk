@@ -5,20 +5,21 @@
     
     {% seo %}
 
-    <!--[if lt IE 9]>
+    [if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <![endif]
 
     <link async rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
     <link rel="canonical" href=" {{ site.url }}{{ page.url }}" />
     <link async href='https://fonts.googleapis.com/css?family=Roboto:400italic,500,500italic,400|Roboto+Slab:400,700,300&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-    
+    <!--
     <script type="text/javascript">
     var host = "karkade.tk";
     if ((host == window.location.host) && (window.location.protocol != "https:"))
         window.location.protocol = "https";
     </script>
+    -->
     <!--{% include icon.html %}-->
     <meta name='wmail-verification' content='ac759c996f3f4e52dc3077af9b06ce9b' />
   </head>
