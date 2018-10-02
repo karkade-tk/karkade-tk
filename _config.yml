@@ -94,3 +94,7 @@ exclude:
   - README.md
   - CNAME
   
+
+title: Karkade.GitHub.io
+show_downloads: true
+theme: jekyll-theme-slate
